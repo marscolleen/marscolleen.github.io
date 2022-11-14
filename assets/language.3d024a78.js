@@ -1,0 +1,1 @@
+import{by as a}from"./index.48ca27c9.js";const s=s=>a.get({url:"lang/list",params:s}),l=s=>a.get({url:"lang/item",params:s}),r=s=>a.get({url:"lang/download",params:s,responseType:"blob"});export{s as a,l as b,r as l};
