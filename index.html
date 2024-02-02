@@ -1,164 +1,325 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <title>Hexo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/highlight.css">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Hexo">
-    <meta property="og:url" content="http://example.com/index.html">
-    <meta property="og:site_name" content="Hexo">
-    <meta property="og:locale" content="en_US">
-    <meta property="article:author" content="John Doe">
-    <meta name="twitter:card" content="summary">
-    <meta name="generator" content="Hexo 7.1.1">
-</head>
+  <meta charset="utf-8">
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/css/highlight.css">
+
+  
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary"><meta name="generator" content="Hexo 7.1.1"></head>
 
 <body>
-    <div id="wrapper">
-        <header id="header">
-            <h1 id="title">
-                <a href="/">Hexo</a>
-            </h1>
-            <nav>
-                <a class="nav-link" href="/">Home</a>
-                <span class="nav-spacer">×</span>
-                <a class="nav-link" href="/archives">Archives</a>
-            </nav>
-        </header>
+  <div id="wrapper">
+    <header id="header">
+  <h1 id="title">
+    <a href="/">Hexo</a>
+  </h1>
+  <nav>
+    
+    
+      
+      <a class="nav-link" href="/">Home</a>
+    
+      
+        <span class="nav-spacer">×</span>
+      
+      <a class="nav-link" href="/archives">Archives</a>
+    
+    
+  </nav>
+</header>
 
-        <div id="content">
-            <article id="post-hello-world" class="article article-type-post" itemprop="blogPost" itemscope>
-                <div class="article-inner">
-                    <header class="article-header">
-                        <h2 class="article-title" itemprop="name">
-                            <a href="/2024/01/27/hello-world/">Hello World</a>
-
-                        </h2>
-                        <div class="article-meta">
-                            <time class="article-date" datetime="2024-01-27T12:16:39.179Z"
-                                itemprop="datePublished">January 27, 2024,
-                                8:16 PM</time>
-                        </div>
-                    </header>
-                    <div class="article-entry" itemprop="articleBody">
-                        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your
-                            very first
-                            post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a>
-                            for more
-                            info. If you get any problems when using Hexo, you can find the answer in <a target="_blank"
-                                rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-                            you can ask me on
-                            <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.
-                        </p>
-                        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick
-                            Start</h2>
-                        <h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink"
-                                title="Create a new post"></a>Create a new post</h3>
-                        <figure class="highlight bash">
-                            <table>
-                                <tr>
-                                    <td class="gutter">
-                                        <pre><span class="line">1</span><br></pre>
-                                    </td>
-                                    <td class="code">
-                                        <pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre>
-                                    </td>
-                                </tr>
-                            </table>
-                        </figure>
-
-                        <p>More info: <a target="_blank" rel="noopener"
-                                href="https://hexo.io/docs/writing.html">Writing</a></p>
-                        <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server
-                        </h3>
-                        <figure class="highlight bash">
-                            <table>
-                                <tr>
-                                    <td class="gutter">
-                                        <pre><span class="line">1</span><br></pre>
-                                    </td>
-                                    <td class="code">
-                                        <pre><span class="line">$ hexo server</span><br></pre>
-                                    </td>
-                                </tr>
-                            </table>
-                        </figure>
-
-                        <p>More info: <a target="_blank" rel="noopener"
-                                href="https://hexo.io/docs/server.html">Server</a></p>
-                        <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink"
-                                title="Generate static files"></a>Generate static files</h3>
-                        <figure class="highlight bash">
-                            <table>
-                                <tr>
-                                    <td class="gutter">
-                                        <pre><span class="line">1</span><br></pre>
-                                    </td>
-                                    <td class="code">
-                                        <pre><span class="line">$ hexo generate</span><br></pre>
-                                    </td>
-                                </tr>
-                            </table>
-                        </figure>
-
-                        <p>More info: <a target="_blank" rel="noopener"
-                                href="https://hexo.io/docs/generating.html">Generating</a>
-                        </p>
-                        <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink"
-                                title="Deploy to remote sites"></a>Deploy to remote sites</h3>
-                        <figure class="highlight bash">
-                            <table>
-                                <tr>
-                                    <td class="gutter">
-                                        <pre><span class="line">1</span><br></pre>
-                                    </td>
-                                    <td class="code">
-                                        <pre><span class="line">$ hexo deploy</span><br></pre>
-                                    </td>
-                                </tr>
-                            </table>
-                        </figure>
-
-                        <p>More info: <a target="_blank" rel="noopener"
-                                href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <div id="content">
+      
+  
+    <article id="post-Sophie and the White Rose" class="article article-type-post" itemprop="blogPost" itemscope>
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 class="article-title" itemprop="name">
+      <a href="/2024/0129/undefined.html">3-test</a>
+      
+    </h2>
+  
 
 
-                    </div>
+        <div class="article-meta">
+          <time class="article-date" datetime="2024-01-29T05:32:27.000Z" itemprop="datePublished">January 29, 2024, 1:32 PM</time>
 
-
-
-                </div>
-            </article>
-
-
-
-
-
-
-
-
+          
         </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        
+      
     </div>
+    
+    
+    
+  </div>
+</article>
 
 
 
+  
+    <article id="post-Sophie and the White Rose/1-Sophie-and-the-League-of-German-Girls" class="article article-type-post" itemprop="blogPost" itemscope>
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 class="article-title" itemprop="name">
+      <a href="/2024/0129/1-Sophie-and-the-League-of-German-Girls.html">1 Sophie and the League of German Girls</a>
+      
+    </h2>
+  
 
 
-    <div id="settings-container">
-        <div id="dark-mode">dark</div>
-        <div id="sans-font">sans</div>
+        <div class="article-meta">
+          <time class="article-date" datetime="2024-01-29T03:47:31.000Z" itemprop="datePublished">January 29, 2024, 11:47 AM</time>
+
+          
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        <p><em>Mother is mad. She is standing in front of the main gate and shouted loud: “Sophie! Come to eat!”</em></p>
+<p>Where is Sophie? “Mom!” Where did that come from? There! In the tree!</p>
+<p>“Sophie!”</p>
+<p>Two minutes later Sophie is standing in front of her.</p>
+<p>“Act your age! You’re not a toddler anymore, Sophie! Others are already commenting on you. Always with the boys! And your hair!”</p>
+<p>Sophie’s hair is like a boy. Long in the front and short in the back.</p>
+<p>Mom is concerned. They live in Ulm. That’s a provincial city. There, people talk a lot.</p>
+<p>And now, most girls have braids and wear long skirts.</p>
+<p>Other than that, Sophie is just like the others. She also wants to join the organization for girls. the League of German Girls (BDM), there she can meet everyone: they sing and do sports, they go to the countryside and have fun together. Of course, it is a bit military, but Sophie likes it.</p>
+<p>“In BDM?” Sophie’s father is not excited.</p>
+<p>“Yeah, dad. You don’t understand it! You are too old and can’t understand us youth!”</p>
+<p>“With the Nazis!”</p>
+<p>“Yes, dad, a new Germany! And we can sing and march together. Of course we don’t want to stay in all the time!”</p>
+<p>The father didn’t say anything else. His sons are already in the Hitler Youth (HJ). He couldn’t do anything about that. And it’s also better for them: whoever not in this organization, can’t go through school easily.</p>
+<p>“All for the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin">Pied Piper of Hamelin</a>! He’s a criminal!”</p>
+<p>“Ah! Dad!”</p>
+<p>On the weekend, the girls go to the countryside. 27 singing girls are on their bicycles.</p>
+<p>The pedestrians all stopped walking and observed them for a bit.</p>
+<p>They rode on, and after a few hours they are tired.</p>
+<p>But they’re in a good mood. The countryside is beautiful and they continued to sing.</p>
+<p>Finally, they stopped in the afternoon and put the bikes under the trees.</p>
+<p>They built their tents together.</p>
+<p>Then they lit a fire in the middle. They sat around it and ate together.</p>
+<p>Two of them brought their guitars.</p>
+<p>Slowly, the sky turned dark. They sang german folksmusic together.</p>
+<p>It’s already late when they returned into their tents.</p>
+<p>And obviously,they didn’t want to sleep just yet.</p>
+<p>“Was that not a fantastic day?” Gisela asked.</p>
+<p>“Wonderful!” others called out.</p>
+<p>“It’s so good now BDM is formed! Do you guys still remember, how boring the last few years were?”</p>
+<p>“Yeah, we weren’t together. The Catholics go together and the Evangelists go together…But now, we form a community together.” said Gerda, the group’s guider, “Since Hitler’s in charge, we’re actually becoming a nation!”</p>
+<p>But one of the girls didn’t understand it. “But all those with the Jews…Why does he hate them so much?” Anna asked.</p>
+<p>“Ah,” Gerda answered, “but that doesn’t mean he’s evil. That’s also not really important. Think about the bright side!”</p>
+<p>Sophie didn’t say anything. She enjoyed it in BDM. And she liked the new Germany a lot.</p>
+<p>Her brother Hans joined the Hitler Youth along with his boy group.</p>
+<p>It’s been quite a bit of time since they’ve wandered around and sang together. They love their country. They love the free nature. They like to run and swim in ice-cold rivers and lakes. It seemed only reasonable of them to support the new Germany. Hans is now the guider of the group.</p>
+<p>Soon, they met with the first challenge. The boys always sang french and russian songs. At Hitler Youth they could only sing german ones. They didn’t understand why.</p>
+<p>The group had a really beautiful flag, on which a dragon can be seen. They made it by themselves. Now they can’t take it with them anymore. “Hitler Youth has a flag!” a guide said to them, “One nation, one empire, one headman! And one flag!” The boys are sad. But they still remained in Hitler Youth.</p>
+<p>Then Hans could go to Nuremberg as a representative of the Ulm Hitler Youth.</p>
+<p>He is very proud.</p>
+<p>In Nuremberg, a big party congress is held. People from all parts of germany come. There is a big parade. Hitler will make a speech.</p>
+<p>The boys on his group saw him to the train station. Sophie also came. She is so proud of her brother.</p>
+<p>On the evening of Sunday, Hans came back home. Sophie ran to him. He looked tired. The trip?</p>
+<p>“Did you see the headman?”</p>
+<p>“Yeah, I did…” But Hans didn’t seem excited.</p>
+<p>“What happened then? Was it not fun?”</p>
+<p>“I don’t know. Everything uniformed. Everyone marched. Everyone shouted:’Hail!’. I always thought, Germans ought to have given it their best, everyone should’ve shown their imagination and intelligence. But the Nazis only knew discipline and ‘Hail’! That can’t be the new Germany.”</p>
+<p>“The Nazis?” Sophie didn’t understand him. He never said anything of that kind. Is Hans also one of the olds? She went to bed sadly.</p>
+<p>After a few weeks, Sophie’s teacher suddenly disappeared. Mr Brenzel, the nicest in the school… “Is he ill?”</p>
+<p>“SA took him.” a classmate said, “It was twelve to one. They all stood in front of his apartment and spat at him. Then they brought him into the car.”</p>
+
+      
     </div>
-    <script type="text/javascript">
-        let d = document, r = d.documentElement.style, f = r.setProperty.bind(r), l = localStorage, s = l.getItem('s') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches), n = l.getItem('n'), m = d.getElementById("dark-mode"), b = () => { f('--bg-color', '#fafafa'); f('--code-bg-color', '#f4f4f4'); f('--text-color', '#212121'); f('--secondary-color', '#808080'); f('--tertiary-color', '#b0b0b0'); f('--link-color', '#b5c8cf'); f('--link-hover-color', '#618794'); f('--link-bg-color', '#dae4e7'); f('--selection-color', '#dae4e7'); m.innerHTML = "dark" }, c = () => { f('--bg-color', '#212121'); f('--code-bg-color', '#292929'); f('--text-color', '#fff'); f('--secondary-color', '#c0c0c0'); f('--tertiary-color', '#6e6e6e'); f('--link-color', '#4d6b75'); f('--link-hover-color', '#96b1bb'); f('--link-bg-color', '#5d828e'); f('--selection-color', '#acc1c9'); m.innerHTML = "light" }, o = d.getElementById("sans-font"), e = () => { f('--body-stack', '"Lora", "Georgia", "Times New Roman", serif'); o.innerHTML = "sans" }, g = () => { f('--body-stack', '"Lato", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Verdana", sans-serif'); o.innerHTML = "serif" }; m.onclick = () => { if (s == 2) { s = 1; l.setItem('s', s); c() } else { s = 2; l.setItem('s', s); b() } }; o.onclick = () => { if (n == 2) { n = 1; l.setItem('n', n); g() } else { n = 2; l.setItem('n', n); e() } }; if (!s) { s = 2; l.setItem('s', 2) }; if (s == 1) { c() }; if (!n) { n = 2; l.setItem('n', 2) }; if (n == 1) { g() };
-    </script>
+    
+    
+    
+  </div>
+</article>
+
+
+
+  
+    <article id="post-Sophie and the White Rose/0-Introduction" class="article article-type-post" itemprop="blogPost" itemscope>
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 class="article-title" itemprop="name">
+      <a href="/2024/0129/0-Introduction.html">Introduction</a>
+      
+    </h2>
+  
+
+
+        <div class="article-meta">
+          <time class="article-date" datetime="2024-01-29T02:45:09.000Z" itemprop="datePublished">January 29, 2024, 10:45 AM</time>
+
+          
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        <p>In 1933, Hitler’s government took charge of Germany. Then was Sophie Scholl twelve years old.</p>
+<p>He wanted to turn Germany strong again, he said so. The Germans should be proud again.</p>
+<p>Sophie believed him.</p>
+<p>The Germans lost a <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/World_War_I">war</a> in 1918 and therefore had to give up a lot of land and pay a huge sum of money to the reconstructions. They were only allowed to have a small army. The Germans lost their savings to the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic">inflation</a> from 1923 to 1925 and their jobs to the world economic crisis. People were suffering, they lived without money, without work, without hope. Then came Hitler.</p>
+<p>Many think, now things are going to be better. Sophie too.</p>
+<p>True, he’s a brutal man, and he hates communism, he hates homosexuality, he hates gipsies and most of all Jews. But maybe all this hate won’t really have an impact in the end? Politicians say a lot.</p>
+<p>More then 40% of the German population voted for Hitler. Because he said: with me you could find jobs again, Germany could become strong again, we could retrieve the land we’ve lost to France and Poland.</p>
+<p>Hitler didn’t need a lot of time: after just one year, he had the whole country under control. The terror system is starting to function. He leaves social democrats, communists, liberals and also many critical christians to die or get shot. He built concentration camps. Whoever complained of him, will end up in there. But Sophie doesn’t know anything about that.</p>
+<p>Hitler rebuilt the whole country: many men are getting jobs. Saarland is coming back to Germany. Later Germany also retrieved the Sudetenland: a part of Czechoslovakia. In 1938, Austria became a part of Germany.</p>
+<p>Very slowly Sophie understood, what Hitler meant. Imprisonment or death for opponents. German Jews were not allowed to work for German states: other Germans are taking over their spots. In the whole country, Hitler shot physically and mentally disabled people. He took the Jews’ apartments away and sent them first to ghettos, then to concentration camps and finally shot most of them. And he started <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/World_War_II">the second world war</a> in 1939.</p>
+<p>What did Germans say? Did nobody protest? Many communism and social democratic groups are working underground. In the church there are a couple groups of opposition. Bishop Galen in Munich preach against the shooting of the diseased. But most of the church people choose to follow the Catholic Pope or their bishops: all of whom acquired freedom with Hitler. And most have fear. Fear of death. One wrong word, and the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Gestapo">Gestapo</a> will come.</p>
+<p>What should the youth such as Sophie and her brother Hans do? Can they do anything?</p>
+<p>They are trying.</p>
+
+      
+    </div>
+    
+    
+    
+  </div>
+</article>
+
+
+
+  
+    <article id="post-test" class="article article-type-post" itemprop="blogPost" itemscope>
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 class="article-title" itemprop="name">
+      <a href="/2024/0129/test.html">test</a>
+      
+    </h2>
+  
+
+
+        <div class="article-meta">
+          <time class="article-date" datetime="2024-01-29T01:18:06.000Z" itemprop="datePublished">January 29, 2024, 9:18 AM</time>
+
+          
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        <h1 id="PASS"><a href="#PASS" class="headerlink" title="PASS"></a>PASS</h1><h2 id="Definition-Usage"><a href="#Definition-Usage" class="headerlink" title="Definition &amp; Usage"></a>Definition &amp; Usage</h2><p>In Python we have a <code>pass</code>, it does absolutely nothing, and usually functions as a simple filler. For example, when we use <code>for</code> to output all the even numbers from 1 to 10 (not including 10), when it’s an odd number, we should use <code>pass</code> to fill up the empty space. Here’s the code:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">10</span>):</span><br><span class="line">    <span class="keyword">if</span> i%<span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(i, end = <span class="string">&#x27;&#x27;</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+  </div>
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemprop="blogPost" itemscope>
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 class="article-title" itemprop="name">
+      <a href="/2024/0127/undefined.html">Hello World</a>
+      
+    </h2>
+  
+
+
+        <div class="article-meta">
+          <time class="article-date" datetime="2024-01-27T12:16:39.179Z" itemprop="datePublished">January 27, 2024, 8:16 PM</time>
+
+          
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    
+    
+    
+  </div>
+</article>
+
+
+
+  
+
+
+
+
+    </div>
+  </div>
+  
+
+
+
+
+<div id="settings-container">
+  <div id="dark-mode">dark</div>
+  <div id="sans-font">sans</div>
+</div>
+<script type="text/javascript">
+let d=document,r=d.documentElement.style,f=r.setProperty.bind(r),l=localStorage,s=l.getItem('s')||(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches),n=l.getItem('n'),m=d.getElementById("dark-mode"),b=()=>{f('--bg-color','#fafafa');f('--code-bg-color','#f4f4f4');f('--text-color','#212121');f('--secondary-color','#808080');f('--tertiary-color','#b0b0b0');f('--link-color','#b5c8cf');f('--link-hover-color','#618794');f('--link-bg-color','#dae4e7');f('--selection-color','#dae4e7');m.innerHTML="dark"},c=()=>{f('--bg-color','#212121');f('--code-bg-color','#292929');f('--text-color','#fff');f('--secondary-color','#c0c0c0');f('--tertiary-color','#6e6e6e');f('--link-color','#4d6b75');f('--link-hover-color','#96b1bb');f('--link-bg-color','#5d828e');f('--selection-color','#acc1c9');m.innerHTML="light"},o=d.getElementById("sans-font"),e=()=>{f('--body-stack','"Lora", "Georgia", "Times New Roman", serif');o.innerHTML="sans"},g=()=>{f('--body-stack','"Lato", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Verdana", sans-serif');o.innerHTML="serif"};m.onclick=()=>{if(s==2){s=1;l.setItem('s',s);c()}else{s=2;l.setItem('s',s);b()}};o.onclick=()=>{if(n==2){n=1;l.setItem('n',n);g()}else{n=2;l.setItem('n',n);e()}};if(!s){s=2;l.setItem('s',2)};if(s==1){c()};if(!n){n=2;l.setItem('n',2)};if(n==1){g()};
+</script>
 
 
 
 
 </body>
-
 </html>
